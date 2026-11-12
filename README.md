@@ -69,8 +69,7 @@ Let's work this out in a step-by-step way to be sure we have the right answer.
 6. **Verify, don't assume.** Run `opencode debug skill` and look for the skill ID.
 
 That is enough to use the tool. The [learning path](docs/learning-path.md) goes from this model to
-authoring, reviewing, and teaching skills. By the end, **You will know more than most interview
-candidates.** That is not a slogan; it is the point of the six modules.
+authoring, reviewing, and teaching skills. By the end, **You will know more than most interview candidates.** That is not a slogan; it is the point of the six modules.
 
 ## Why this exists
 
