@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+coverage/
+dist/
+tmp/
+.verify/
+.playwright/

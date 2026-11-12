@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 1280px; height: 640px; overflow: hidden; }
+  body {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    color: #e9f1ff;
+    background:
+      radial-gradient(900px 500px at 18% 0%, rgba(94,242,194,.20), transparent 68%),
+      radial-gradient(800px 500px at 90% 100%, rgba(106,168,255,.20), transparent 68%),
+      linear-gradient(140deg, #060a12, #0a1526 60%, #07101d);
+    padding: 64px 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .grid {
+    position: fixed; inset: 0;
+    background-image: linear-gradient(rgba(148,178,220,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(148,178,220,.06) 1px, transparent 1px);
+    background-size: 64px 64px;
+    mask-image: radial-gradient(ellipse at 40% 20%, black, transparent 75%);
+  }
+  .brand { display: flex; align-items: center; gap: 16px; position: relative; }
+  .mark { width: 60px; height: 60px; border-radius: 17px; display: grid; place-items: center; background: linear-gradient(145deg, #5ef2c2, #6aa8ff); box-shadow: 0 18px 50px rgba(94,242,194,.28); }
+  .mark svg { width: 34px; height: 34px; }
+  .brand strong { font-size: 32px; letter-spacing: -1px; }
+  h1 { position: relative; font-size: 72px; line-height: 1.02; letter-spacing: -3.5px; margin: 0; max-width: 840px; }
+  .grad { background: linear-gradient(100deg, #5ef2c2, #6aa8ff 58%, #ffce6a); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  p { position: relative; font-size: 24px; color: #9fb0c8; margin: 18px 0 0; max-width: 760px; line-height: 1.45; }
+  .row { position: relative; display: flex; align-items: end; justify-content: space-between; gap: 24px; }
+  .terminal { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 19px; color: #5ef2c2; background: rgba(14,23,39,.86); border: 1px solid rgba(148,178,220,.24); border-radius: 12px; padding: 17px 22px; }
+  .meta { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 16px; color: #9fb0c8; }
+  .orb { position: absolute; right: 72px; top: 104px; width: 330px; height: 330px; }
+  .orb .ring { position: absolute; inset: 0; border-radius: 50%; border: 1px solid rgba(94,242,194,.30); }
+  .orb .ring:nth-child(2) { inset: 54px; border-color: rgba(106,168,255,.35); }
+  .orb .ring:nth-child(3) { inset: 108px; border-color: rgba(255,206,106,.40); }
+  .orb .dot { position: absolute; width: 18px; height: 18px; border-radius: 50%; background: #5ef2c2; left: 156px; top: 156px; box-shadow: 0 0 40px rgba(94,242,194,.75); }
+</style>
+</head>
+<body>
+  <div class="grid"></div>
+  <div class="brand">
+    <span class="mark">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#04110d" d="M12 2l1.9 6.1L20 10l-6.1 1.9L12 18l-1.9-6.1L4 10l6.1-1.9L12 2z"/></svg>
+    </span>
+    <strong>SkillForge</strong>
+  </div>
+  <div>
+    <h1>Forge skills your<br><span class="grad">agent can trust.</span></h1>
+    <p>Install, validate, scaffold, and learn opencode Agent Skills. Zero dependencies. Plain text. Human review before anything runs.</p>
+  </div>
+  <div class="row">
+    <div class="terminal">$ npx github:M0-AR/skillforge install</div>
+    <div class="meta">MIT · zero dependencies · open source</div>
+  </div>
+  <div class="orb" aria-hidden="true"><div class="ring"></div><div class="ring"></div><div class="ring"></div><div class="dot"></div></div>
+</body>
+</html>

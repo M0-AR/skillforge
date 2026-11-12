@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600" role="img" aria-label="SkillForge — install and learn opencode Agent Skills">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060a12"/>
+      <stop offset="0.55" stop-color="#0a1526"/>
+      <stop offset="1" stop-color="#07101d"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="80" y1="80" x2="720" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5ef2c2"/>
+      <stop offset="1" stop-color="#6aa8ff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(320 160) rotate(45) scale(520)">
+      <stop stop-color="#5ef2c2" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5ef2c2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0v64" fill="none" stroke="#94b2dc" stroke-opacity="0.07"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="600" fill="url(#bg)"/>
+  <rect width="1600" height="600" fill="url(#grid)"/>
+  <rect width="1600" height="600" fill="url(#glow)"/>
+  <g transform="translate(96 86)">
+    <rect width="64" height="64" rx="18" fill="url(#mint)"/>
+    <path d="M32 12l4.4 13.6L50 30l-13.6 4.4L32 48l-4.4-13.6L14 30l13.6-4.4L32 12z" fill="#04110d"/>
+    <text x="88" y="43" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="34" font-weight="800" fill="#e9f1ff" letter-spacing="-1">SkillForge</text>
+  </g>
+  <text x="96" y="286" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="76" font-weight="800" fill="#e9f1ff" letter-spacing="-3">Forge skills your</text>
+  <text x="96" y="372" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="76" font-weight="800" fill="url(#mint)" letter-spacing="-3">agent can trust.</text>
+  <text x="100" y="440" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-size="26" fill="#9fb0c8">Install, validate, scaffold, and learn opencode Agent Skills.</text>
+  <g transform="translate(100 486)">
+    <rect width="520" height="54" rx="12" fill="#0e1727" stroke="#94b2dc" stroke-opacity="0.24"/>
+    <text x="22" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" fill="#5ef2c2">$ npx github:M0-AR/skillforge install</text>
+  </g>
+  <g transform="translate(1040 120)">
+    <circle cx="220" cy="180" r="150" fill="none" stroke="#5ef2c2" stroke-opacity="0.35"/>
+    <circle cx="220" cy="180" r="105" fill="none" stroke="#6aa8ff" stroke-opacity="0.35"/>
+    <circle cx="220" cy="180" r="60" fill="none" stroke="#ffce6a" stroke-opacity="0.45"/>
+    <circle cx="220" cy="180" r="18" fill="#5ef2c2"/>
+    <circle cx="370" cy="180" r="10" fill="#6aa8ff"/>
+    <circle cx="115" cy="100" r="8" fill="#ffce6a"/>
+    <circle cx="150" cy="300" r="9" fill="#ff7e9d"/>
+    <circle cx="330" cy="290" r="7" fill="#5ef2c2"/>
+    <path d="M220 180L370 180M220 180L115 100M220 180L150 300M220 180L330 290" stroke="#5ef2c2" stroke-opacity="0.35" stroke-width="2"/>
+  </g>
+  <text x="1260" y="548" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#9fb0c8">MIT · zero dependencies · open source</text>
+</svg>

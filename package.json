@@ -1,0 +1,40 @@
+{
+  "name": "skillforge",
+  "version": "1.0.0",
+  "description": "Install, validate, scaffold, and learn opencode Agent Skills with one friendly command.",
+  "type": "module",
+  "bin": {
+    "skillforge": "./bin/skillforge.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "lint": "node --check bin/skillforge.js && node --check src/cli.js && node --check src/utils.js && node --check src/validate.js && node --check src/install.js && node --check src/scaffold.js && node --check src/doctor.js",
+    "check": "npm run lint && npm test",
+    "site": "node scripts/build-preview.mjs",
+    "serve": "python3 -m http.server 8080"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "opencode",
+    "agent-skills",
+    "skills",
+    "cli",
+    "developer-tools",
+    "ai",
+    "automation",
+    "open-source"
+  ],
+  "author": "M0-AR and SkillForge contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M0-AR/skillforge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/M0-AR/skillforge/issues"
+  },
+  "homepage": "https://m0-ar.github.io/skillforge/"
+}

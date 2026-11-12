@@ -1,0 +1,35 @@
+name: Feature request
+description: Propose a focused improvement to SkillForge.
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the user and the job, not only the implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+  - type: checkboxes
+    id: fit
+    attributes:
+      label: Fit
+      options:
+        - label: This keeps the zero-runtime-dependency promise.
+          required: false
+        - label: This keeps manual-only as the safe default.
+          required: false
+        - label: I can help with a pull request.
+          required: false
